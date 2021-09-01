@@ -15,7 +15,7 @@ def home():
 def getResponseModel():
     d = request.form.to_dict()
 
-    model = joblib.load("model_files\my_model.pkl")
+    model = joblib.load("my_model.pkl")
         
     
     y_pred = predict_housing_price(d, model)
