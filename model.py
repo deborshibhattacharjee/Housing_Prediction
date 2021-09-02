@@ -9,7 +9,7 @@ def predict_housing_price(area_data, model):
     added_df = get_addon()
     
     final_df = df.append(added_df)
-    print(final_df)
+    
     preprocess_data = preprocess_ocean_cols(final_df)
     
     prepared_data = pipeline_transformer(preprocess_data)
