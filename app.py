@@ -15,12 +15,12 @@ def home():
 def getResponseModel():
     d = request.form.to_dict()
 
-    model = joblib.load("my_model.pkl")
-        
+    if sum(value == '0' for value in d.values())>=6:
+        return "[0]"
     
+    model = joblib.load("my_model.pkl")
     y_pred = predict_housing_price(d, model)
     return y_pred
-
 
 if __name__ == '__main__':
     app.run(debug=True)
