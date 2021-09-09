@@ -1,5 +1,6 @@
 # California Housing prediction
 In this project I have built a Real Estate Price Predictor for the California State using the fudamentals of Data Science and Machine Learning like Feature Engineering, Data Transformation, One Hot Encoding, Outlier Detection, KFoldCrossValidation and GridSearchCV. The project in the Backend uses RandomForestRegression to predict the price for a certain district in california taking into account the geographical location as well as the overall district's real estate data. It also has a frontend, built using HTML & CSS     and deployed over heroku.
+
 **Link** - https://california-houses-prediction.herokuapp.com/
 
 ## Dataset
