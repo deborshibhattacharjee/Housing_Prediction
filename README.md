@@ -17,7 +17,7 @@ This dataset is a modified version of the California Housing dataset available f
 - matplotlib for Data Visualization
 - sklearn for Model Building
 - Flask for Backend Server
-- HTML, CSS & JQuery for Frontend
+- HTML, CSS & JS for Frontend
 
 ## Project Structure
 **Branch : main**
